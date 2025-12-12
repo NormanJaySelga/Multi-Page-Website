@@ -1,0 +1,74 @@
+/* == GLOBAL == */
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  background: #000; /* Black */
+  color: #0ff;      /* Neon blue text */
+  text-align: center;
+  margin: 0;
+}
+
+/* == HEADER & NAV == */
+header {
+  background: #0a0a0a;
+  padding: 20px;
+  box-shadow: 0 0 15px #00f9ff; /* Neon glow */
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0ff;
+  font-size: 18px;
+  text-shadow: 0 0 8px #00f9ff;
+}
+
+nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 12px #00f9ff, 0 0 20px #00f9ff;
+}
+
+/* == NEON TITLE EFFECT == */
+h1, h2 {
+  text-shadow:
+     0 0 7px #00f9ff,
+     0 0 10px #00f9ff,
+     0 0 21px #00f9ff;
+  margin-bottom: 15px;
+}
+
+/* == BUTTONS == */
+.neon-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #0ff;
+  border: 2px solid #00f9ff;
+  text-shadow: 0 0 6px #00f9ff;
+  box-shadow:
+    0 0 5px #00f9ff,
+    0 0 10px #00f9ff,
+    0 0 20px #00f9ff;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+
+.neon-btn:hover {
+  color: #fff;
+  box-shadow:
+    0 0 10px #00f9ff,
+    0 0 20px #00f9ff,
+    0 0 30px #00f9ff;
+}
+
+/* == MAIN CONTENT == */
+main {
+  padding: 30px;
+}
+
+footer {
+  background: #111;
+  padding: 15px;
+  font-size: 14px;
+  text-shadow: 0 0 5px #00f9ff;
+}

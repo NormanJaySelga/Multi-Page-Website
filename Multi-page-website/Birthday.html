@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Invitation</title>
+
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            text-align: center;
+            background-color: #0b0b0b;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+        }
+
+        /* Neon Glow Title */
+        h1 {
+            font-size: 50px;
+            color: #00e6ff;
+            text-shadow: 0 0 10px #00e6ff, 0 0 20px #00e6ff, 0 0 30px #00e6ff;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00e6ff;
+            }
+            to {
+                text-shadow: 0 0 25px #00ffff, 0 0 35px #00ffff;
+            }
+        }
+
+        h3 {
+            color: #ffcc00;
+            font-size: 24px;
+        }
+
+        /* Card Box */
+        .content-box {
+            background: #161616;
+            width: 70%;
+            margin: auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,255,255,0.3);
+            border: 2px solid #00e6ff;
+            animation: borderGlow 2s infinite alternate;
+        }
+
+        @keyframes borderGlow {
+            from { box-shadow: 0 0 15px #0099cc; }
+            to { box-shadow: 0 0 30px #00e6ff; }
+        }
+
+        img {
+            border-radius: 12px;
+            width: 350px;
+            box-shadow: 0 0 20px rgba(0,255,255,0.3);
+            animation: imageGlow 1.5s infinite alternate;
+        }
+
+        @keyframes imageGlow {
+            from { box-shadow: 0 0 10px #00e6ff; }
+            to { box-shadow: 0 0 20px #00ffff; }
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        a {
+            color: #4da6ff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00e6ff;
+            text-shadow: 0 0 10px #00e6ff;
+        }
+
+        /* Message Button */
+        .btn {
+            background: #00e6ff;
+            color: black;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 0 15px #00e6ff;
+        }
+
+        .btn:hover {
+            box-shadow: 0 0 25px #00ffff;
+            background: #00ffff;
+        }
+
+        /* Background Music Hidden */
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="https://files.catbox.moe/5w7t8x.mp3" type="audio/mpeg">
+    </audio>
+
+    <br><br>
+
+    <div class="content-box">
+        <h1>It's My Birthday!</h1>
+        <h3>September 29 • Save the Date 🎉</h3>
+
+        <!-- Birthday Image -->
+        <img src="https://media.tenor.com/03POhT70bJUAAAAM/nathan-drake-cheers.gif" alt="Birthday GIF">
+
+        <br><br>
+
+        <h2 style="color:#00e6ff;">What to Bring:</h2>
+        <ul>
+            <li>Self</li>
+            <li>Gifts </li>
+            <li>A camera or phone ready to capture memories</li>
+        </ul>
+
+        <br><br>
+
+        <h2 style="color:#ffcc00;">Location:</h2>
+        <a href="https://www.google.com/maps/place/Rene+Cayetano+Elementary+School/@14.7776893,121.0492449,17z/data=!3m1!4b1!4m6!3m5!1s0x3397afc36a0f4aef:0xb1ea7fa12da6d86c!8m2!3d14.7776841!4d121.0518198!16s%2Fg%2F11byp6byh4?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">📍 Click here to open map</a>
+
+    <br><br><br>
+
+</body>
+</html>
